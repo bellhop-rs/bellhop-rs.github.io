@@ -8,6 +8,8 @@
     height: 0;
     overflow: hidden;
     max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .embed-container iframe, .embed-container object, .embed-container embed {
@@ -166,6 +168,11 @@
     .splash-head {
         font-size: 250%;
     }
+
+    .embed-container {
+        max-width: 50%;
+        padding-bottom: 28.125%;
+    }
 }
 
 /*
@@ -176,6 +183,6 @@
 @media (min-width: 78em) {
     /* We increase the header font size even more */
     .splash-head {
-        font-size: 300%;
+        font-size: 275%;
     }
 }
