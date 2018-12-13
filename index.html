@@ -7,6 +7,15 @@
         <link rel="icon" type="image/png" href="/assets/img/bellhop_64.png">
         <title>Bellhop</title>
 
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131021276-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-131021276-1');
+        </script>
+
         <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
         <link rel="stylesheet" href="https://unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
         <!--[if lte IE 8]>
@@ -111,5 +120,9 @@
             </div>
         </div>
 
+        <script src="https://unpkg.com/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js" integrity="sha384-GCDGoa/0sAMyAWz/7A6SjkWkSiPb4n2xcWkSAhopuwyF4R2ER52anMCak/n2IEUl" crossorigin="anonymous"></script>
+        <script>
+            var scroll = new SmoothScroll('a[href*="#"]');
+        </script>
     </body>
 </html>
