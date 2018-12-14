@@ -3,7 +3,6 @@
  * Stuff I think makes the site look nicer
  */
 body {
-    line-height: 1.7em;
     color: #7f8c8d;
 }
 
@@ -104,6 +103,8 @@ a::hover {
  * This represents the content area (everything below the blue section)
  */
 .content-wrapper {
+    line-height: 1.7em;
+
     /* These styles are required for the "scroll-over" effect */
     position: absolute;
     top: 87%;
